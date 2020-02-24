@@ -1,4 +1,3 @@
 ## intent:inform
 - Happy
-- Sad
-- 
+- Sad  
