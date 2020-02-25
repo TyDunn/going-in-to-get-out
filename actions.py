@@ -10,4 +10,4 @@ class FormExperience(FormAction):
     def name(self) -> Text:
         """Unique identifier of experience form"""
 
-        return "form_experience""
+        return "form_experience"
