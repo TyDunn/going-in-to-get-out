@@ -1,3 +1,13 @@
 ## intent:inform
-- Happy
-- Sad  
+- sadness
+- Sadness
+- anger
+- Anger
+- Surprise
+- surprise
+- Fear
+- fear
+- Love
+- love
+- Joy
+- joy
