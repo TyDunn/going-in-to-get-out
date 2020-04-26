@@ -1,13 +1,32 @@
 intents:
   - inform
 
+entities:
+  - primary
+  - secondary
+  - tertiary
+
+slots:
+  primary
+    type: unfeaturized
+    auto_fill: false
+  secondary
+    type: unfeaturized
+    auto_fill: false
+  tertiary
+    type: unfeaturized
+    auto_fill: false
+
 actions:
-- utter_iamabot
+  - utter_greet
 
 templates:
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+      - text: "Hello. Which best characterizes your day: joy, love, surprise, fear, anger, sadness?"
+
+forms:
+  - experience_form            
 
 session_config:
   session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  carry_over_slots_to_new_session: false

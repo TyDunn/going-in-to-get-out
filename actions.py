@@ -11,3 +11,9 @@ class FormExperience(FormAction):
         """Unique identifier of experience form"""
 
         return "form_experience"
+
+    @staticmethod
+    def required_slots(tracker: Tracker) -> List[Text]:
+        """A list of required slots that the form has to fill"""
+
+        return ["primary", "secondary", "tertiary"]

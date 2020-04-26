@@ -1,3 +1,15 @@
+## intent:greet
+- Hello
+- Hi
+- Hey
+- What's up
+- How's it going?
+- Yo
+- hi
+- hello
+- hey!
+- Hello!
+
 ## intent:inform
 - sadness
 - Sadness
